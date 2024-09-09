@@ -1,0 +1,78 @@
+a {
+  display: inline-block; /* Делает ссылку блочным элементом, но в ряд */
+  width: 200px; /* Ширина ссылок */
+  text-align: center; /* Центрирование текста внутри ссылки */
+  margin: 10px; /* Отступы между ссылками */
+  padding: 10px; /* Внутренний отступ для создания пространства внутри ссылки */
+  background-color: #f0f0f0; /* Цвет фона для ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  color: #fa8a8a; /* Цвет текста */
+  box-shadow: 0px 0px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+a:hover {
+  box-shadow: 10px 7px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #19acfb;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: radial-gradient(circle, #19acfb, #000000);
+}
+#resume {
+  h1 {
+    margin-left: 30px;
+    width: 50px;
+  }
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  border: 0px solid;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 100px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+/* h1 {
+  text-align: center;
+  color: white ;
+  background-color: crimson;
+  display: inline-block;
+} */
+.Education {
+  color: white;
+  text-align: center;
+}
+ul {
+  list-style-type: none; /* Remove default bullets (optional) */
+  padding: 0; /* Remove padding */
+  margin: 0 auto; /* Auto margins to center the <ul> itself */
+  display: inline-block; /* Ensure it takes only as much space as its content */
+}
+.tt {
+  text-align: center;
+  margin: auto;
+}
+.tt a {
+  margin: 19px;
+}
+p {
+  color: white;
+}
+#home {
+  display: inline-block; /* Делает ссылку блочным элементом, но в ряд */
+  width: 200px; /* Ширина ссылок */
+  text-align: center; /* Центрирование текста внутри ссылки */
+  margin: 10px; /* Отступы между ссылками */
+  padding: 10px; /* Внутренний отступ для создания пространства внутри ссылки */
+  background-color: #f0f0f0; /* Цвет фона для ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  color: #333; /* Цвет текста */
+}

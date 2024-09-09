@@ -1,0 +1,63 @@
+a {
+  display: inline-block; /* Делает ссылку блочным элементом, но в ряд */
+  width: 200px; /* Ширина ссылок */
+  text-align: center; /* Центрирование текста внутри ссылки */
+  margin: 10px; /* Отступы между ссылками */
+  padding: 10px; /* Внутренний отступ для создания пространства внутри ссылки */
+  background-color: #f0f0f0; /* Цвет фона для ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  color: #fa8a8a; /* Цвет текста */
+  box-shadow: 0px 0px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+a:hover {
+  box-shadow: 10px 7px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #19acfb;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+body {
+  background: radial-gradient(circle, #2ff180b2, #44dcf76f);
+}
+.input_u {
+  input {
+    text-align: center;
+  }
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 0px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+#submit {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4caf50; /* Зеленый цвет для кнопки */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Кнопка также будет широкой */
+  box-sizing: border-box;
+}
+
+.footer {
+  text-align: center; /* Центрируем текст */
+  padding: 20px; /* Добавляем отступы внутри футера */
+  background-color: #f1f1f1; /* Светло-серый фон */
+  color: #333; /* Темный цвет текста */
+  position: relative; /* Если нужно, чтобы футер был внизу */
+  top: 250px;
+  width: 100%;
+  font-size: 14px; /* Размер шрифта */
+  border-top: 1px solid #ccc; /* Верхняя граница для разделения футера */
+}

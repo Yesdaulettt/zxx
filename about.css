@@ -1,0 +1,81 @@
+a {
+  display: inline-block; /* Делает ссылку блочным элементом, но в ряд */
+  width: 200px; /* Ширина ссылок */
+  text-align: center; /* Центрирование текста внутри ссылки */
+  margin: 10px; /* Отступы между ссылками */
+  padding: 10px; /* Внутренний отступ для создания пространства внутри ссылки */
+  background-color: #f0f0f0; /* Цвет фона для ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  color: #333; /* Цвет текста */
+  box-shadow: 0px 0px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+a:hover {
+  box-shadow: 10px 7px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #19acfb;
+  font-family: "Roboto", sans-serif;
+}
+
+#home {
+  display: inline-block; /* Делает ссылку блочным элементом, но в ряд */
+  width: 200px; /* Ширина ссылок */
+  text-align: center; /* Центрирование текста внутри ссылки */
+  margin: 10px; /* Отступы между ссылками */
+  padding: 10px; /* Внутренний отступ для создания пространства внутри ссылки */
+  background-color: #f0f0f0; /* Цвет фона для ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  color: #333; /* Цвет текста */
+  margin-bottom: 30%;
+}
+h5 {
+  background-color: #ede900fb;
+  display: inline-block;
+  border-radius: 8px;
+}
+body {
+  background: radial-gradient(circle, #2ff180b2, #44dcf76f);
+}
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  background: radial-gradient(circle, #ffffffb2, #15b4d0ae);
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+th {
+  background-color: #f2f2f2;
+}
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.hh {
+  text-align: center;
+}
+.video iframe {
+  top: 0;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+}
+.city {
+  all: unset; /* Сбрасывает все стили */
+  cursor: pointer; /* Добавляем курсор для кликабельности */
+  text-decoration: none; /* Убираем подчеркивание, если нужно */
+}
